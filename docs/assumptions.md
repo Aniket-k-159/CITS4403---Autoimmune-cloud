@@ -56,7 +56,7 @@ trust graph and is a natural extension.
 Benign and malicious telemetry are two overlapping distributions with
 separability `d'`.
 *Bias:* the significant one. A real detector's errors are **correlated across
-similar workloads** — services running the same image under the same load
+similar workloads** services running the same image under the same load
 pattern produce similar scores, so false positives cluster rather than arriving
 independently. Clustered false positives make the autoimmune cascade *worse*.
 Results under this assumption are therefore conservative on H2.
