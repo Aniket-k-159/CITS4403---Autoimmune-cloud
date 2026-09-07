@@ -27,7 +27,7 @@ draining.
 *Bias:* accelerates the cascade relative to reality, but does not change whether
 one occurs.
 
-**A5. Services are binary — up or down.**
+**A5. Services are binary up or down.**
 Real services degrade: they shed load, serve cached responses, return partial
 results.
 *Bias:* overstates damage per failure, understates the duration over which a
