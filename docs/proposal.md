@@ -1,4 +1,4 @@
-# Checkpoint 1 — project proposal
+# Checkpoint 1 project proposal
 
 CITS4403 Computational Modelling.
 
