@@ -190,7 +190,7 @@ Step 1 is complete and validated (`notebooks/01_graphs_and_load.ipynb`):
 
 Matched on node count and mean degree, removing a single service costs **47%**
 of served work on the scale-free graph versus **5%** on the random graph. No
-attacker and no detector are in the model yet — this is structure alone.
+attacker and no detector are in the model yet this is structure alone.
 
 ## 10. Questions for the facilitator
 
