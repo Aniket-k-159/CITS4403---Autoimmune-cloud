@@ -1,0 +1,7 @@
+networkx
+numpy
+scipy
+matplotlib
+powerlaw
+jupyterlab
+nbformat
