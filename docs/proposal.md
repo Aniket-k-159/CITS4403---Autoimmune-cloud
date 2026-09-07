@@ -1,6 +1,6 @@
 # Checkpoint 1 — project proposal
 
-CITS4403 Computational Modelling. Solo project.
+CITS4403 Computational Modelling.
 
 ---
 
@@ -30,7 +30,7 @@ of a particular model; it is geometry.
 
 The motivating observation is what a false positive *costs* once response is
 automated. In a monitored system it costs an engineer's attention. In an
-automated system it deletes a healthy service — and deleting a loaded node in a
+automated system it deletes a healthy service and deleting a loaded node in a
 dependency graph redistributes its traffic onto its neighbours, which makes
 those neighbours look anomalous, which triggers further quarantines.
 
@@ -62,8 +62,8 @@ present. Tested directly by sweeping sensitivity with the attacker disabled.
 
 **H3 (stretch).** The detector-driven cascade is a mechanism distinct from the
 capacity cascade: it persists even when spare capacity is set high enough that
-overload failure is impossible. If so, over-provisioning — the standard defence
-against cascading failure — does not protect against this one.
+overload failure is impossible. If so, over-provisioning the standard defence
+against cascading failure does not protect against this one.
 
 **H4 (extension, likely future work).** An adaptive attacker that shifts toward
 stealth as sensitivity rises lowers the optimal sensitivity, inverting the
@@ -94,7 +94,7 @@ easier to detect.
 **Detector.** Characterised by its **ROC curve** rather than as a trained model.
 Benign and malicious telemetry are two overlapping score distributions with
 separability `d'`; the threshold `theta` selects an operating point on the
-resulting curve. This is deliberate — it makes detector *quality* and detector
+resulting curve. This is deliberate it makes detector *quality* and detector
 *operating point* independently sweepable, which a single trained model does
 not permit.
 
@@ -104,16 +104,16 @@ node plus neighbours, or whole trust zone).
 
 **The coupling that closes the loop.** Telemetry score depends on load. A
 service that absorbs redistributed traffic emits elevated latency, error rate
-and resource use — exactly the signature the detector was built to flag. This
+and resource use exactly the signature the detector was built to flag. This
 coupling is what makes the defence a cascade rather than a series of
 independent mistakes.
 
 ### Three damage sources, tracked separately
 
-1. **Compromise** — the worm reached the service.
-2. **Overload** — the service genuinely exceeded capacity after a neighbour was
+1. **Compromise**: the worm reached the service.
+2. **Overload**: the service genuinely exceeded capacity after a neighbour was
    removed.
-3. **False-positive quarantine** — the service was healthy and had headroom, and
+3. **False-positive quarantine**: the service was healthy and had headroom, and
    was removed because its telemetry looked anomalous.
 
 Keeping these decomposed is what makes the U-curve interpretable. Collapsed into
