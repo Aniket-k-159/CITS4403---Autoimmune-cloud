@@ -3,16 +3,16 @@
 | Week | Work | Gate |
 |---|---|---|
 | 6  | Repo, step 1 complete | solver validated |
-| 7-8 | **CHECKPOINT 1** — proposal discussion, repo demo | |
+| 7-8 | **CHECKPOINT 1** proposal discussion, repo demo | |
 | 8  | Step 2 worm spreading | epidemic threshold matches theory |
 | 8  | Step 3 cascade baseline | sharp transition in alpha |
 | 9  | Step 4 detector + quarantine, end to end | load-to-telemetry coupling verified |
 | 9  | Coarse U-curve, low replicate count | shape visible |
-| 9-10 | **CHECKPOINT 2** — model demo, sweep plan, runtime estimate | |
+| 9-10 | **CHECKPOINT 2** model demo, sweep plan, runtime estimate | |
 | 10 | Full sweep, phase diagram, susceptibility | |
 | 11 | Distribution fitting, sensitivity analysis | |
 | 11 | H3 if on track, else deepen H1/H2 analysis | **STOP RULE** applies here |
-| 12 | **CHECKPOINT 3** — demo and report | |
+| 12 | **CHECKPOINT 3** demo and report | |
 
 ## Stop rule
 
